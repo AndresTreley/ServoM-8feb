@@ -1,0 +1,8 @@
+clear;
+clc;
+syms a b  x;
+y=x^2+a*x+b;
+
+z=solve(y==0,x);
+
+z1=vpa(subs(z,[a b],[3 1]));
