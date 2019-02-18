@@ -1,0 +1,7 @@
+clear;
+clc;
+syms x y;
+y1=3*x^2 - 2*x + y;
+y2=x*y + x;
+z=[y1==7,y2==5];
+[z1, z2]= solve(z);
