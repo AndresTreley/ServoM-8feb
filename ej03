@@ -1,0 +1,5 @@
+clear;
+clc;
+syms x;
+y=2*exp(x)+3*cos(x);
+z=solve(y==0,x);
